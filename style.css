@@ -1,0 +1,63 @@
+* {
+    font-family: 'Playfair Display';
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-link {
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: #03A9F4;
+    font-size: 14px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.header-link:focus {
+    color: #03A9F4;
+    font-size: 14px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.gallery-list {
+    list-style: none;
+}
+
+.gallery-img {
+    width: 420px;
+    height: 280px;
+}
+
+.gallery-category {
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    color: #B4AD9E;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.gallery-title {
+    color: #626262;
+    font-size: 30px;
+    line-height: 1.33;
+}
+
+.gallery-description {
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.gallery-btn {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #626262;
+}
