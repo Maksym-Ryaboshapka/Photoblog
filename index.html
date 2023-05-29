@@ -5,106 +5,116 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Photo blog</title>
+  <title>Photoblog</title>
   <!-- шрифти -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
     rel="stylesheet">
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- reset -->
+  <link rel="stylesheet" href="./styles/reset.css">
   <!-- css -->
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
   <header class="header">
-    <nav class="header-navigation">
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="./index.html" class="header-link">LIFESTYLE</a>
-        </li>
-        <li class="header-item">
-          <a href="./index.html" class="header-link">PHOTODIARY</a>
-        </li>
-        <li class="header-item">
-          <a href="./index.html" class="header-link">MUSIC</a>
-        </li>
-        <li class="header-item">
-          <a href="./index.html" class="header-link">TRAVEL</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="./index.html" class="header-link">LIFESTYLE</a>
+          </li>
+          <li class="header-item">
+            <a href="./index.html" class="header-link">PHOTODIARY</a>
+          </li>
+          <li class="header-item">
+            <a href="./index.html" class="header-link">MUSIC</a>
+          </li>
+          <li class="header-item">
+            <a href="./index.html" class="header-link">TRAVEL</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="gallery">
-      <ul class="gallery-list">
-        <li class="gallery-item">
-          <img src="./img/1_1.jpg" alt="photo of a girl" class="gallery-img" />
-          <p class="gallery-category">LIFESTYLE</p>
-          <h2 class="gallery-title">More than just a music festival</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="gallery-item">
-          <img src="./img/2_1.jpg" alt="photo a cup of coffee" class="gallery-img" />
-          <p class="gallery-category">LIFESTYLE</p>
-          <h2 class="gallery-title">Life tastes better with coffee</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="gallery-item">
-          <img src="./img/3_1.jpg" alt="bridge photo" class="gallery-img" />
-          <p class="gallery-category">PHOTODAIRY</p>
-          <h2 class="gallery-title">American dream</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="gallery-item">
-          <img src="./img/4_1.jpg" alt="photo of a man" class="gallery-img" />
-          <p class="gallery-category">PHOTODAIRY</p>
-          <h2 class="gallery-title">A day exploring the Alps</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="gallery-item">
-          <img src="./img/1_2.jpg" alt="photo of a girl" class="gallery-img" />
-          <p class="gallery-category">LIFESTYLE</p>
-          <h2 class="gallery-title">Top 10 song for running</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="gallery-item">
-          <img src="./img/2_2.jpg" alt="road photo" class="gallery-img" />
-          <p class="gallery-category">LIFESTYLE</p>
-          <h2 class="gallery-title">Cold winter days</h2>
-          <p class="gallery-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-      </ul>
-      <button class="gallery-btn">Load more</button>
+      <div class="container">
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="./images/1_1.jpg" alt="photo of a girl" class="gallery-img" />
+            <p class="gallery-category">LIFESTYLE</p>
+            <h2 class="gallery-title">More than just a music festival</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/2_1.jpg" alt="photo a cup of coffee" class="gallery-img" />
+            <p class="gallery-category">LIFESTYLE</p>
+            <h2 class="gallery-title">Life tastes better with coffee</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/3_1.jpg" alt="bridge photo" class="gallery-img" />
+            <p class="gallery-category">PHOTODAIRY</p>
+            <h2 class="gallery-title">American dream</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/4_1.jpg" alt="photo of a man" class="gallery-img" />
+            <p class="gallery-category">PHOTODAIRY</p>
+            <h2 class="gallery-title">A day exploring the Alps</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/1_2.jpg" alt="photo of a girl" class="gallery-img" />
+            <p class="gallery-category">LIFESTYLE</p>
+            <h2 class="gallery-title">Top 10 song for running</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/2_2.jpg" alt="road photo" class="gallery-img" />
+            <p class="gallery-category">LIFESTYLE</p>
+            <h2 class="gallery-title">Cold winter days</h2>
+            <p class="gallery-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea.
+            </p>
+          </li>
+        </ul>
+        <button class="gallery-btn">Load more</button>
+      </div>
     </section>
   </main>
 </body>
